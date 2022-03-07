@@ -1,0 +1,199 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat';
+}
+
+h1{
+
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+h2{
+
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title{
+  color: white;
+  background-color: #ff4c68;
+}
+
+/* Nav bar */
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: lighter;
+
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* buttons */
+
+.db{
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.t-image{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 23%;
+}
+
+/* features */
+
+#features{
+  position: relative;
+  background-color: white;
+  z-index: 1;
+}
+
+.f-icon{
+  font-size: 6rem;
+  margin: 20% auto 3%;
+  color: #ef8172;
+}
+
+.f-icon:hover{
+  color:#ff4c68;
+}
+
+.feats{
+  text-align: center;
+}
+
+.feat-title{
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feat-text{
+  color: #8f8f8f;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.f-row{
+  padding: 7% 15%;
+}
+
+/* testimonial */
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.test-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* press */
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.carousel-control-next {
+    background: 0 0;
+    border: 0;
+}
+
+.carousel-control-prev {
+    background: 0 0;
+    border: 0;
+}
+
+/* pricing */
+#pricing{
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+}
+
+.card-col{
+  padding:2%;
+  text-align: center;
+}
+
+@media(max-width: 1028px){
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+/* Download */
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-h3{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 700;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 5%;
+}
+
+/* footer */
+
+#footer{
+  margin-top: 3%;
+  padding-left: 45%;
+  padding-right: 45%;
+  text-align: center;
+}
+
+.copyright{
+  margin-top: 7%;
+  font-size: 1rem;
+  color: grey;
+}
